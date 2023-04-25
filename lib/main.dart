@@ -4,7 +4,7 @@ import 'package:flutter_provider_counter/providers/counter_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider<ChangeNotifier>(
+  runApp(ChangeNotifierProvider(
     create: (_) => CounterProvider(),
     child: const MyApp(),
   ));
